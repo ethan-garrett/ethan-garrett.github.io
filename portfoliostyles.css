@@ -20,3 +20,51 @@ html{
 	border: 2px solid black;
 	border-radius: 5px;
 }
+
+.IntroSection{
+	width: 100%;
+	height: 500px;
+	background-color: orange;
+	display: flex;
+	justify-content: space-around; 
+}
+
+.IntroImage{
+	height: 423px;
+	width: 640px;
+}
+
+.IntroTextContainer{
+	width: 50px;
+	height: 50px;
+	border: 2px solid black;
+}
+
+.IntroTextContainer, p{
+	font-size: 2.5rem;
+}
+
+.IntroTextContainer, h1{
+	font-size: 3.5rem;
+}
+
+.PortSection{
+	width: 100%;
+	height: 100px;
+	background-color: blue;
+	margin-top: 10px;
+}
+
+.AboutSection{
+	width: 100%;
+	height: 100px;
+	background-color: green;
+	margin-top: 10px;
+}
+
+.ContactSection{
+	width: 100%;
+	height: 100px;
+	background-color: yellow;
+	margin-top: 10px;
+}
