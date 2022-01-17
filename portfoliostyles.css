@@ -12,17 +12,31 @@ body{
  font-family: "Courier New";
 }
 
+a:link{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:visted{
+	text-decoration: none;
+	color: #ffffff;
+}
+
 .NavBar{
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	width: 98%;
 	position: fixed;
 	left: 1%;
 	background-color: #2E4756;
 	font-size: 1.5rem;
-	color: #ffffff;
-	height: 25px;
+	height: 30px;
 	border-radius: 5px;
+}
+
+.NavBarLinks{
+	color: #ffffff;
 }
 
 .NavBarLinks:hover{
@@ -41,10 +55,29 @@ body{
 	border-radius: 5px;
 }
 
+@media only screen and (max-width: 600px){
+	.IntroSection{
+		margin: 0 Auto;
+	}
+}
+
 .IntroImage{
-	height: 350px;
-	width: 600px;
+	height: 450px;
+	width: 450px;
 	margin: 10px;
+}
+
+@media only screen and (max-width: 800px){
+	.IntroImage{
+		height: 300px;
+		width: 300px;
+	}
+}
+
+@media only screen and (max-width: 650px){
+	.IntroImage{
+		display: none;
+	}
 }
 
 .IntroImage, img{
