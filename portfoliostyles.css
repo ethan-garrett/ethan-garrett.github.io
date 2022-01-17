@@ -7,9 +7,9 @@ html{
 }
 
 body{
- background-color: #16262E;
- background-image: url("code.jpeg");
- font-family: "Courier New";
+	background-color: #16262E;
+	background-image: url("code.jpeg");
+	font-family: "Courier New";
 }
 
 a:link{
