@@ -161,29 +161,26 @@ h2 {
 
 .aboutSection h3 {
 	color: #ffffff;
-	font-size: 2rem;
+	font-size: 2.75rem;
 	margin: 5px;
 }
 
 .aboutSection p {
 	color: #ffffff;
-	font-size: 1.5rem;
+	font-size: 2.25rem;
 	margin: 5px;
-	max-width: 500px;
+	max-width: 650px;
 }
 
 .aboutSection img {
-	width: 500px;
-	height: 400px;
+	height: 50%;
+	max-height: 450px;
+	width: 50%;
+	max-width: 500px;
 	margin: 5px;
+	border-radius: 30%;
 }
 
-@media only screen and (max-width: 650px){
-	.aboutSection img {
-		width: 350px;
-		height: 250px;
-	}
-}
 
 .contactSection {
 	width: 98%;
