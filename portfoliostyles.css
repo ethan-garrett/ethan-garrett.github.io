@@ -144,11 +144,45 @@ h2 {
 
 .aboutSection {
 	width: 98%;
-	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap-reverse;
 	background-color: #3C7A89;
 	margin: 0 auto;
 	margin-top: 15px;
 	border-radius: 5px;
+}
+
+.aboutSection div {
+	border: 2px solid #ffffff;
+	border-radius: 10px;
+	margin: 5px;
+}
+
+.aboutSection h3 {
+	color: #ffffff;
+	font-size: 2rem;
+	margin: 5px;
+}
+
+.aboutSection p {
+	color: #ffffff;
+	font-size: 1.5rem;
+	margin: 5px;
+	max-width: 500px;
+}
+
+.aboutSection img {
+	width: 500px;
+	height: 400px;
+	margin: 5px;
+}
+
+@media only screen and (max-width: 650px){
+	.aboutSection img {
+		width: 350px;
+		height: 250px;
+	}
 }
 
 .contactSection {
