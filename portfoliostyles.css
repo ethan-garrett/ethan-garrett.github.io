@@ -114,12 +114,13 @@ a:visted {
 	border: 2px solid #ffffff;
 	margin: 10px;
 	border-radius: 10px;
-	max-width: 400px;
+	max-width: 450px;
 }
 
 .portArticle img{
 	width: 300px;
 	height: 200px;
+	margin: 5px;
 }
 
 .portArticle p{
@@ -131,6 +132,7 @@ a:visted {
 .portArticle h3{
 	font-size: 2rem;
 	color: #ffffff;
+	margin: 5px;
 }
 
 h2 {
