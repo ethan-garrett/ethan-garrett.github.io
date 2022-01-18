@@ -1,28 +1,28 @@
-*{
+* {
 	box-sizing: border-box;
 }
 
-html{
+html {
 	font-size: 62.5%;
 }
 
-body{
+body {
 	background-color: #16262E;
 	background-image: url("code.jpeg");
 	font-family: "Courier New";
 }
 
-a:link{
+a:link {
 	text-decoration: none;
 	color: #ffffff;
 }
 
-a:visted{
+a:visted {
 	text-decoration: none;
 	color: #ffffff;
 }
 
-.NavBar{
+.navBar {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -35,16 +35,16 @@ a:visted{
 	border-radius: 5px;
 }
 
-.NavBarLinks{
+.navBarLinks {
 	color: #ffffff;
 }
 
-.NavBarLinks:hover{
+.navBarLinks:hover {
 	border: 2px solid #ffffff;
 	border-radius: 5px;
 }
 
-.IntroSection{
+.introSection {
 	width: 98%;
 	background-color: #3C7A89;
 	display: flex;
@@ -55,51 +55,51 @@ a:visted{
 	border-radius: 5px;
 }
 
-@media only screen and (max-width: 600px){
-	.IntroSection{
+@media only screen and (max-width: 600px) {
+	.introSection {
 		margin: 0 auto;
 	}
 }
 
 
-.IntroImage, img{
+.introImage, img {
 	height: 450px;
 	width: 450px;
 	margin: 10px;
 }
 
-@media only screen and (max-width: 800px){
-	.IntroImage, img{
+@media only screen and (max-width: 800px) {
+	.introImage, img {
 		height: 300px;
 		width: 300px;
 	}
 }
 
-@media only screen and (max-width: 650px){
-	.IntroImage{
+@media only screen and (max-width: 650px) {
+	.introImage {
 		display: none;
 	}
 }
 
-.IntroImage, img{
+.introImage, img {
 	border-radius: 10%;
 }
 
-.IntoTextContainer{
+.introTextContainer {
 	padding-top: 50px;
 }
 
-.IntroTextContainer, p{
+.introTextContainer, p {
 	font-size: 2.5rem;
 	color: #ffffff;
 }
 
-.IntroTextContainer, h1{
+.introTextContainer, h1 {
 	font-size: 3.5rem;
 	color: #ffffff;
 }
 
-.PortSection{
+.portSection {
 	width: 98%;
 	height: 200px;
 	background-color: #3C7A89;
@@ -108,7 +108,7 @@ a:visted{
 	border-radius: 5px;
 }
 
-.AboutSection{
+.aboutSection {
 	width: 98%;
 	height: 200px;
 	background-color: #3C7A89;
@@ -117,7 +117,7 @@ a:visted{
 	border-radius: 5px;
 }
 
-.ContactSection{
+.contactSection {
 	width: 98%;
 	height: 200px;
 	background-color: #3C7A89;
