@@ -1,0 +1,127 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #16262E;
+	background-image: url("code.jpeg");
+	font-family: "Courier New";
+}
+
+a:link {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:visted {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.navBar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 98%;
+	position: fixed;
+	left: 1%;
+	background-color: #2E4756;
+	font-size: 1.5rem;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.navBarLinks {
+	color: #ffffff;
+}
+
+.navBarLinks:hover {
+	border: 2px solid #ffffff;
+	border-radius: 5px;
+}
+
+.introSection {
+	width: 98%;
+	background-color: #3C7A89;
+	display: flex;
+	justify-content: space-around; 
+	padding-top: 25px;
+	padding-bottom: 10px;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+	.introSection {
+		margin: 0 auto;
+	}
+}
+
+
+.introImage, img {
+	height: 450px;
+	width: 450px;
+	margin: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+	.introImage, img {
+		height: 300px;
+		width: 300px;
+	}
+}
+
+@media only screen and (max-width: 650px) {
+	.introImage {
+		display: none;
+	}
+}
+
+.introImage, img {
+	border-radius: 10%;
+}
+
+.introTextContainer {
+	padding-top: 50px;
+}
+
+.introTextContainer, p {
+	font-size: 2.5rem;
+	color: #ffffff;
+}
+
+.introTextContainer, h1 {
+	font-size: 3.5rem;
+	color: #ffffff;
+}
+
+.portSection {
+	width: 98%;
+	height: 200px;
+	background-color: #3C7A89;
+	margin: 0 auto;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.aboutSection {
+	width: 98%;
+	height: 200px;
+	background-color: #3C7A89;
+	margin: 0 auto;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.contactSection {
+	width: 98%;
+	height: 200px;
+	background-color: #3C7A89;
+	margin: 0 auto;
+	margin-top: 15px;
+	border-radius: 5px;
+}
