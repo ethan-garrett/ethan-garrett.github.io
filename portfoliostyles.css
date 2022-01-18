@@ -62,18 +62,14 @@ a:visted {
 }
 
 
-.introImage, img {
-	height: 450px;
-	width: 450px;
+.introImage img {
+	height: 100%;
+	max-height: 450px;
+	width: 100%;
+	max-width: 450px;
 	margin: 10px;
 }
 
-@media only screen and (max-width: 800px) {
-	.introImage, img {
-		height: 300px;
-		width: 300px;
-	}
-}
 
 @media only screen and (max-width: 650px) {
 	.introImage {
@@ -81,7 +77,7 @@ a:visted {
 	}
 }
 
-.introImage, img {
+.introImage img {
 	border-radius: 10%;
 }
 
@@ -89,23 +85,61 @@ a:visted {
 	padding-top: 50px;
 }
 
-.introTextContainer, p {
+.introTextContainer p {
 	font-size: 2.5rem;
 	color: #ffffff;
 }
 
-.introTextContainer, h1 {
+.introTextContainer h1 {
 	font-size: 3.5rem;
 	color: #ffffff;
 }
 
 .portSection {
 	width: 98%;
-	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 	background-color: #3C7A89;
 	margin: 0 auto;
 	margin-top: 15px;
 	border-radius: 5px;
+}
+
+.portArticle{
+	border: 2px solid #ffffff;
+	margin: 10px;
+	border-radius: 10px;
+	max-width: 450px;
+}
+
+.portArticle img{
+	width: 300px;
+	height: 200px;
+	margin: 5px;
+}
+
+.portArticle p{
+	font-size: 1.5rem;
+	color: #ffffff;
+	margin: 5px;
+}
+
+.portArticle h3{
+	font-size: 2rem;
+	color: #ffffff;
+	margin: 5px;
+}
+
+h2 {
+	color: #ffffff;
+	background-color: #3C7A89;
+	margin: 0 auto;
+	margin-top: 15px;
+	font-size: 3rem;
+	width: 200px;
+	border-radius: 5px;
+	padding: 15px;
 }
 
 .aboutSection {
