@@ -65,7 +65,7 @@ a:visted {
 }
 
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 950px) {
 	.introImage {
 		display: none;
 	}
@@ -100,26 +100,26 @@ a:visted {
 	border-radius: 5px;
 }
 
-.portArticle{
+.portArticle {
 	border: 2px solid #ffffff;
 	margin: 10px;
 	border-radius: 10px;
 	max-width: 450px;
 }
 
-.portArticle img{
+.portArticle img {
 	width: 300px;
 	height: 200px;
 	margin: 5px;
 }
 
-.portArticle p{
+.portArticle p {
 	font-size: 1.5rem;
 	color: #ffffff;
 	margin: 5px;
 }
 
-.portArticle h3{
+.portArticle h3 {
 	font-size: 2rem;
 	color: #ffffff;
 	margin: 5px;
@@ -134,6 +134,7 @@ h2 {
 	width: 200px;
 	border-radius: 5px;
 	padding: 15px;
+	text-align: center;
 }
 
 .aboutSection {
@@ -178,10 +179,54 @@ h2 {
 
 .contactSection {
 	width: 98%;
-	height: 200px;
 	background-color: #3C7A89;
 	margin: 0 auto;
 	margin-top: 15px;
 	margin-bottom: 10px;
 	border-radius: 5px;
+	padding: 2px;
+}
+
+.contactSectionContainer {
+	border: 2px solid #ffffff;
+	border-radius: 10px;
+	margin: 15px;
+}
+
+.contactSection h3 {
+	color: #ffffff;
+	font-size: 2.75rem;
+	margin: 5px;
+}
+
+.contactSectionContainer div {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+}
+
+.contactSection p {
+	color: #ffffff;
+	font-size: 2.25rem;
+	margin: 5px;
+}
+
+.contactSection img {
+	width: 100px;
+	position: relative;
+	bottom: 40px;
+	margin: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+	.contactHide {
+		display: none;
+	}
+	.contactSection img:last-child {
+		position: static;
+	}
+	.contactlLinks {
+		display: flex;
+	}
 }
