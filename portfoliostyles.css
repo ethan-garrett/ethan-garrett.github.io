@@ -178,10 +178,28 @@ h2 {
 
 .contactSection {
 	width: 98%;
-	height: 200px;
 	background-color: #3C7A89;
 	margin: 0 auto;
 	margin-top: 15px;
 	margin-bottom: 10px;
 	border-radius: 5px;
+	display: flex;
+}
+
+.contactSection h3{
+	color: #ffffff;
+	font-size: 2.75rem;
+	margin: 5px;
+}
+
+.contactSection p {
+	color: #ffffff;
+	font-size: 2.25rem;
+	margin: 5px;
+	max-width: 650px;
+}
+
+.contactSection img{
+	width::
+	height:;
 }
