@@ -183,7 +183,13 @@ h2 {
 	margin-top: 15px;
 	margin-bottom: 10px;
 	border-radius: 5px;
-	display: flex;
+	padding: 2px;
+}
+
+.contactSectionContainer {
+	border: 2px solid #ffffff;
+	border-radius: 10px;
+	margin: 15px;
 }
 
 .contactSection h3{
@@ -192,14 +198,25 @@ h2 {
 	margin: 5px;
 }
 
+.contactContainer{
+	display: flex;
+	justify-content: space-around;
+}
+
 .contactSection p {
 	color: #ffffff;
 	font-size: 2.25rem;
 	margin: 5px;
-	max-width: 650px;
 }
 
-.contactSection img{
-	width::
-	height:;
+.contactSection img {
+	width: 100px;
+	position: relative;
+	bottom: 40px;
+}
+
+@media only screen and (max-width: 800px) {
+	.contactSection img {
+		display: none;
+	}
 }
