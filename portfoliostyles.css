@@ -156,7 +156,7 @@ h2 {
 .aboutSection div {
 	border: 2px solid #ffffff;
 	border-radius: 10px;
-	margin: 5px;
+	margin: 15px;
 }
 
 .aboutSection h3 {
@@ -188,5 +188,6 @@ h2 {
 	background-color: #3C7A89;
 	margin: 0 auto;
 	margin-top: 15px;
+	margin-bottom: 10px;
 	border-radius: 5px;
 }
