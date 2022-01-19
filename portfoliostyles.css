@@ -65,7 +65,7 @@ a:visted {
 }
 
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 950px) {
 	.introImage {
 		display: none;
 	}
