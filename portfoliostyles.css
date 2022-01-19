@@ -192,15 +192,17 @@ h2 {
 	margin: 15px;
 }
 
-.contactSection h3{
+.contactSection h3 {
 	color: #ffffff;
 	font-size: 2.75rem;
 	margin: 5px;
 }
 
-.contactContainer{
+.contactSectionContainer div {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
 }
 
 .contactSection p {
@@ -213,10 +215,14 @@ h2 {
 	width: 100px;
 	position: relative;
 	bottom: 40px;
+	margin: 10px;
 }
 
 @media only screen and (max-width: 800px) {
-	.contactSection img {
+	.contactHide {
 		display: none;
+	}
+	.contactSection img:last-child {
+		position: static;
 	}
 }
