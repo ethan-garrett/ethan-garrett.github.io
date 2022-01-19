@@ -55,12 +55,6 @@ a:visted {
 	border-radius: 5px;
 }
 
-@media only screen and (max-width: 600px) {
-	.introSection {
-		margin: 0 auto;
-	}
-}
-
 
 .introImage img {
 	height: 100%;
