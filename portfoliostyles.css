@@ -22,6 +22,11 @@ a:visted {
 	color: #ffffff;
 }
 
+.layoutCenter{
+	width: 98%;
+	margin: 0 auto;
+}
+
 .navBar {
 	display: flex;
 	justify-content: space-around;
@@ -45,13 +50,11 @@ a:visted {
 }
 
 .introSection {
-	width: 98%;
 	background-color: #3C7A89;
 	display: flex;
 	justify-content: space-around; 
 	padding-top: 25px;
 	padding-bottom: 10px;
-	margin: 0 auto;
 	border-radius: 5px;
 }
 
@@ -90,12 +93,10 @@ a:visted {
 }
 
 .portSection {
-	width: 98%;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	background-color: #3C7A89;
-	margin: 0 auto;
 	margin-top: 15px;
 	border-radius: 5px;
 }
@@ -144,12 +145,10 @@ h2 {
 }
 
 .aboutSection {
-	width: 98%;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap-reverse;
 	background-color: #3C7A89;
-	margin: 0 auto;
 	margin-top: 15px;
 	border-radius: 5px;
 }
@@ -184,9 +183,7 @@ h2 {
 
 
 .contactSection {
-	width: 98%;
 	background-color: #3C7A89;
-	margin: 0 auto;
 	margin-top: 15px;
 	margin-bottom: 10px;
 	border-radius: 5px;
