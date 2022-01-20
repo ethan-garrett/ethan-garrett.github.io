@@ -113,6 +113,12 @@ a:visted {
 	margin: 5px;
 }
 
+@media only screen and (max-width: 300px) {
+	.portArticle img {
+		display: none;
+	}
+}
+
 .portArticle p {
 	font-size: 1.5rem;
 	color: #ffffff;
@@ -211,6 +217,13 @@ h2 {
 	font-size: 2.25rem;
 	margin: 5px;
 }
+
+@media only screen and (max-width: 300px) {
+	.contactSection p {
+		font-size: 1.5rem;
+	}
+}
+
 
 .contactSection img {
 	width: 100px;
