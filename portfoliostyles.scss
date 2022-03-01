@@ -1,0 +1,237 @@
+$mainColor: #2E4756;
+$secondaryColor: #3C7A89;
+$textcolor: #ffffff;
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: $mainColor;
+	background-image: url("code.jpeg");
+	font-family: "Courier New";
+}
+
+a:link {
+	text-decoration: none;
+	color: $textcolor;
+}
+
+a:visted {
+	text-decoration: none;
+	color: $textcolor;
+}
+
+.layoutCenter{
+	width: 98%;
+	margin: 0 auto;
+}
+
+.navBar {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 98%;
+	position: fixed;
+	left: 1%;
+	background-color: $mainColor;
+	font-size: 1.5rem;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.navBarLinks {
+	color: $textcolor;
+	&:hover {
+		border: 2px solid $textcolor;
+		border-radius: 5px;
+	}
+}
+
+.introSection {
+	background-color: $secondaryColor;
+	display: flex;
+	justify-content: space-around; 
+	padding-top: 25px;
+	padding-bottom: 10px;
+	border-radius: 5px;
+}
+
+
+.introImage img {
+	height: 100%;
+	max-height: 450px;
+	width: 100%;
+	max-width: 450px;
+	margin: 10px;
+}
+
+
+
+.introImage img {
+	border-radius: 10%;
+}
+
+.introTextContainer {
+	padding-top: 50px;
+}
+
+.introTextContainer p {
+	font-size: 2.5rem;
+	color: $textcolor;
+}
+
+.introTextContainer h1 {
+	font-size: 3.5rem;
+	color: $textcolor;
+}
+
+.portSection {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: $secondaryColor;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+.portArticle {
+	border: 2px solid $textcolor;
+	margin: 10px;
+	border-radius: 10px;
+	max-width: 450px;
+}
+
+.portArticle img {
+	width: 300px;
+	height: 200px;
+	margin: 5px;
+}
+
+
+.portArticle p {
+	font-size: 1.5rem;
+	color: $textcolor;
+	margin: 5px;
+}
+
+.portArticle h3 {
+	font-size: 2rem;
+	color: $textcolor;
+	margin: 5px;
+}
+
+h2 {
+	color: $textcolor;
+	background-color: $secondaryColor;
+	margin: 0 auto;
+	margin-top: 15px;
+	font-size: 3rem;
+	width: 200px;
+	border-radius: 5px;
+	padding: 15px;
+	text-align: center;
+}
+
+.aboutSection {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap-reverse;
+	background-color: $secondaryColor;
+	margin-top: 15px;
+	border-radius: 5px;
+	div {
+		border: 2px solid $textcolor;
+		border-radius: 10px;
+		margin: 5px;
+	}
+	h3 {
+		color: $textcolor;
+		font-size: 2.75rem;
+		margin: 5px;
+	}
+	p {
+		color: $textcolor;
+		font-size: 2.25rem;
+		margin: 5px;
+		max-width: 650px;
+	}
+	img {
+		height: 50%;
+		max-height: 450px;
+		width: 50%;
+		max-width: 500px;
+		margin: 5px;
+		border-radius: 30%;
+	}
+}
+
+.contactSection {
+	background-color: $secondaryColor;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	padding: 2px;
+	h3 {
+		color: $textcolor;
+		font-size: 2.75rem;
+		margin: 5px;
+	}
+	p {
+		color: $textcolor;
+		font-size: 2.25rem;
+		margin: 5px;
+	}
+	img {
+		width: 100px;
+		position: relative;
+		bottom: 40px;
+		margin: 10px;
+	}
+}
+
+.contactSectionContainer {
+	border: 2px solid $textcolor;
+	border-radius: 10px;
+	margin: 15px;
+	div {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-top: 50px;
+	}
+}
+
+@media only screen and (max-width: 950px) {
+	.introImage {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.portArticle img {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	.contactSection p {
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.contactHide {
+		display: none;
+	}
+	.contactSection img:last-child {
+		position: static;
+	}
+	.contactlLinks {
+		display: flex;
+	}
+}
