@@ -8,8 +8,7 @@ html {
 
 body {
   background-color: #2E4756;
-  background-image: url("code.jpeg");
-  font-family: "Courier New";
+  font-family: "Apple SD Gothic Neo", sans-serif;
 }
 
 a:link {
@@ -35,9 +34,13 @@ a:visted {
   position: fixed;
   left: 1%;
   background-color: #2E4756;
-  font-size: 1.5rem;
-  height: 30px;
+  font-size: 1.7rem;
+  font-weight: bold;
+  height: 50px;
   border-radius: 5px;
+  border-color: #ffffff;
+  border-width: 2px;
+  border-style: solid;
 }
 
 .navBarLinks {
@@ -52,7 +55,7 @@ a:visted {
   background-color: #3C7A89;
   display: flex;
   justify-content: space-around;
-  padding-top: 25px;
+  padding-top: 45px;
   padding-bottom: 10px;
   border-radius: 5px;
 }
@@ -93,27 +96,40 @@ a:visted {
 }
 
 .portArticle {
+  align-items: center;
   border: 2px solid #ffffff;
   margin: 10px;
   border-radius: 10px;
   max-width: 450px;
+  padding: 5px;
 }
-
-.portArticle img {
-  width: 300px;
-  height: 200px;
-  margin: 5px;
+.portArticle .articleLinks {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
 }
-
-.portArticle p {
-  font-size: 1.5rem;
-  color: #ffffff;
-  margin: 5px;
+.portArticle .articleLinks a {
+  font-size: 1.8rem;
 }
-
 .portArticle h3 {
   font-size: 2rem;
   color: #ffffff;
+  width: 100%;
+  margin: 5px;
+}
+.portArticle .imgDiv {
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+}
+.portArticle .imgDiv img {
+  width: 100%;
+  height: 100%;
+}
+.portArticle p {
+  font-size: 1.8rem;
+  color: #ffffff;
+  width: 100%;
   margin: 5px;
 }
 
